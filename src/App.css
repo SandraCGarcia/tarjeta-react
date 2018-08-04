@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(226, 224, 224);
+}
+
+.App{
+  max-width: 600px;
+  background-color: white;
+  margin: 15%;
+  padding: 20px;
+  box-shadow: 4px 4px 15px rgb(190, 186, 186);
+}
+.likes{
+font-size: 19px;
+}
+.fa-heart{
+  color: red;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.photo{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* background-image: url('Sandra278x278.jpg'); */
+  background-size: cover;
+}
+.cabecera{
+  display: flex;
+}
+.info{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.fecha{
+  margin-top: 0;
+}
+.titulo{
+  margin-bottom: 0;
+}
+.texto{
+  margin-top: 30px;
+  color: gray;
+  font-size: 19px;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.read{
+  color: lightgray;
+  font-size: 19px;
+}
